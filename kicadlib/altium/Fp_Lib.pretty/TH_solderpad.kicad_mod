@@ -1,0 +1,64 @@
+(footprint "TH_solderpad"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Through hole solder pads")
+	(property "Reference" "REF**"
+		(at 87.6375 -0.95 0)
+		(layer "F.SilkS")
+		(uuid "1e86ce1f-c22d-474a-80ef-5313f7b9b597")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TH_solderpad"
+		(at 87.6375 97.77 0)
+		(layer "F.Fab")
+		(uuid "aeea97bc-a19c-4446-b263-5d2841c5fe11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d953fba-d487-4ace-8ab5-86def47b91e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d7935e2-4611-457a-990a-9eaf5628fa9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 174.255 95.8)
+		(size 2.54 2.54)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "2855c49b-2d3a-4298-9549-aea48ae858c4")
+	)
+	(embedded_fonts no)
+)
